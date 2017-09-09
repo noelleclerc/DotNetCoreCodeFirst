@@ -16,7 +16,6 @@ namespace Demo.DotNetCore.CodeFirst.Domain
 
         public DotNetCoreContext(DbContextOptions options) : base(options)
         {
-
         }
 
         public DbSet<User> User { get; set; }
